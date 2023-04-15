@@ -3,7 +3,7 @@ import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter'
 
-import { cclg } from '../lib/main'
+import { cclg } from './lib/main'
 
 cclg({ label: 'any label' })
 cclg({ label: 'any label', color: '#ff1493' })
