@@ -1,6 +1,6 @@
 {
   "name": "cclg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "console.log with customized style",
   "type": "module",
   "main": "./dist/index.umd.cjs",
