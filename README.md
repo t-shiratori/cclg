@@ -1,10 +1,43 @@
+# Dev
+
 ## Install
 
 ```
-npm i cclg
+npm i
 ```
 
-## Useage
+## Run Dev
+
+```
+npm run dev
+```
+
+```sh
+> cclg@1.0.2 dev
+> vite
+
+
+  VITE v4.2.1  ready in 143 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+
+```
+
+### Open Browser Console
+
+<img width="369" alt="スクリーンショット 2023-04-16 2 52 03" src="https://user-images.githubusercontent.com/8470739/232245429-34298493-d42d-4e5d-a3e8-adcf29669348.png">
+
+# Package Useage
+
+## Install package
+
+```
+npm i -D cclg
+```
+
+## Sample Code
 
 ```ts
 import { cclg } from 'cclg'
@@ -19,5 +52,3 @@ cclg({ label: 'type info', type: 'info' })
 cclg({ label: 'type warn', type: 'warn' })
 cclg({ label: 'type error', type: 'error' })
 ```
-
-<img width="369" alt="スクリーンショット 2023-04-16 2 52 03" src="https://user-images.githubusercontent.com/8470739/232245429-34298493-d42d-4e5d-a3e8-adcf29669348.png">
