@@ -1,4 +1,4 @@
-import { cclg } from './lib/main'
+import { cclg } from './lib/cclg'
 
 cclg({ label: 'any label' })
 cclg({ label: 'any label', color: '#ff1493' })

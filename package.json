@@ -3,19 +3,23 @@
   "version": "1.0.0",
   "description": "console.log with customized style",
   "type": "module",
-  "main": "./dist/cclg.umd.cjs",
-  "module": "./dist/cclg.js",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "author": "takashi_shiratori",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
-      "require": "./dist/cclg.umd.cjs",
-      "import": "./dist/cclg.js"
+      "require": "./dist/index.umd.cjs",
+      "import": "./dist/index.js"
     }
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "preview": "vite preview",
     "prettier": "prettier --write {src/**/*.ts}"
   },
